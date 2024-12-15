@@ -1,0 +1,17 @@
+{
+  "name": "@turnkey/example-with-rebalancer",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -w run build-all",
+    "cli": "tsx src/index.ts",
+    "clean": "rimraf ./dist ./.cache",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@turnkey/ethers": "workspace:*",
+    "@turnkey/sdk-server": "workspace:*",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.10.0"
+  }
+}

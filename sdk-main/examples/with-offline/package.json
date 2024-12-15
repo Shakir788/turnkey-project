@@ -1,0 +1,19 @@
+{
+  "name": "@turnkey/example-with-offline",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pnpm -w run build-all && tsx src/index.ts",
+    "clean": "rimraf ./dist ./.cache",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@turnkey/api-key-stamper": "workspace:*",
+    "@turnkey/http": "workspace:*",
+    "dotenv": "^16.0.3",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.2"
+  }
+}

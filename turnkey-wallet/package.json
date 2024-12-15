@@ -1,0 +1,17 @@
+{
+  "name": "turnkey-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@turnkey/sdk-browser": "^1.10.2",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
